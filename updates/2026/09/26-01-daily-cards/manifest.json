@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "2026/09/26-01-daily-cards",
+  "policy": "append-only",
+  "files": {
+    "README.md": {
+      "sha256": "d3fdf897fdad599a03e28f0f09d72d2135a26b5c748b98710cdb11e3e1bf23b6",
+      "bytes": 2380
+    },
+    "docs/ARCHITECTURE.md": {
+      "sha256": "78ff8f25403ce4f6712f5d52c793454a8fd999939ecd4bc96f34a9a66fa9f22e",
+      "bytes": 2589
+    },
+    "docs/CODE_GUIDE.md": {
+      "sha256": "22fba9cb45d0e15c74a5c7f9e7ab5fd0d9d3a226bf87a79e28b8505ef45796e8",
+      "bytes": 9698
+    },
+    "docs/DEVELOPMENT.md": {
+      "sha256": "01110e0fc728c39edafea15faec58af822eed18f7b10312ba1a1a9514da8b48a",
+      "bytes": 2471
+    },
+    "docs/EXPORT_NOTES.md": {
+      "sha256": "3618de15fd6736b96974724d85e8498d00d615bb4481ad8c4337791276688906",
+      "bytes": 407
+    },
+    "docs/KNOWN_ISSUES.md": {
+      "sha256": "942143c902e2581be889bc60062ed4139b8330ed1ebdba8bf8a691d1cb2b5b43",
+      "bytes": 2142
+    },
+    "docs/code-guide.pdf": {
+      "sha256": "67fb4da0853bb30c315a4f5a26b76b1d29d5d5856d6415d7396ae33ef7c24483",
+      "bytes": 151587
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/DailyCardModels.kt": {
+      "sha256": "bd88c9b95c21c800db6944aa7eafb7ab80c3ee5f2ef8dfabb8a11963bf82a9ea",
+      "bytes": 1006
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/DailyQuestionScheduler.kt": {
+      "sha256": "d437b6cdc1eeb2df227a5a72e434b35d724a9a30e46c4ca2782fc58297c5b695",
+      "bytes": 1839
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/Models.kt": {
+      "sha256": "887a7df838081f7dc1636172b9ca8705e2264132dc09c76bfc0f56d259e3878b",
+      "bytes": 608
+    },
+    "source/app/src/main/res/drawable/bg_answer_button.xml": {
+      "sha256": "e7fdc6776e051b8c93fbe90148a8ba5be93499d7ad8dd839130654f54e740894",
+      "bytes": 588
+    },
+    "source/app/src/main/res/drawable/bg_badge_complete.xml": {
+      "sha256": "395b88a19569cf6ecde81f8c83eab5e03651db4b0e6869bb6bd265ef5ad11dc4",
+      "bytes": 300
+    },
+    "source/app/src/main/res/drawable/bg_button_main.xml": {
+      "sha256": "9e07fcedb465fb62e06baf7eece66bb862c1e436c899f3bb54c9b97b7681095f",
+      "bytes": 193
+    },
+    "source/app/src/main/res/drawable/bg_button_secondary.xml": {
+      "sha256": "306af27afa073e558ca83094b588bdece423a3de43e448ffc8a7e38574ffe468",
+      "bytes": 254
+    },
+    "source/app/src/main/res/drawable/bg_card_result.xml": {
+      "sha256": "eab1f8e6eb0f48aaaf28cb0e7f3a470a0cc220f75e2c4567a983d59ab9e7011b",
+      "bytes": 278
+    },
+    "source/app/src/main/res/drawable/bg_chip.xml": {
+      "sha256": "4e11bcc80de4ec3d1d2284e37edc06e057abcf47f102c6982d62efedda5fed75",
+      "bytes": 223
+    },
+    "source/app/src/main/res/drawable/bg_option_selected.xml": {
+      "sha256": "23ac200a7b69120f5c2371e76caab4ecc2264990246a8a2dfa612c5da9310657",
+      "bytes": 300
+    },
+    "source/app/src/main/res/drawable/bg_option_unselected.xml": {
+      "sha256": "4c8e80860b4b47b6333817c3412653564a6c4f29be5328c2dd7e7ecf8ac4e0f5",
+      "bytes": 302
+    },
+    "source/app/src/main/res/drawable/bg_progress.xml": {
+      "sha256": "45e8013e3be1537fb199f3c5d8fb464e30587f91fcab82cabaa9dd02aa8cb8a0",
+      "bytes": 558
+    },
+    "source/app/src/main/res/drawable/bg_tag.xml": {
+      "sha256": "8ac0af8ef4bc93352cb7ed1ab74cd2546238c55372adbf0de69cf71f7bc56ed6",
+      "bytes": 199
+    },
+    "source/app/src/main/res/drawable/ic_arrow_back.xml": {
+      "sha256": "4931daa9cf33263dd0588c8dd97bccb7ac4a13f76ac8287e263a1d0553a7201e",
+      "bytes": 371
+    },
+    "source/app/src/main/res/drawable/ic_check_circle.xml": {
+      "sha256": "0ad7f0fd80ce94852a091a26e46117c41388c86ccb57150a4043d2de240e9b51",
+      "bytes": 431
+    },
+    "source/app/src/main/res/drawable/ic_favorite_border.xml": {
+      "sha256": "0f2164aeffd00f532a0e39db3672764133f188b1a03a214c754802edc51abaed",
+      "bytes": 668
+    },
+    "source/app/src/main/res/drawable/ic_favorite_filled.xml": {
+      "sha256": "23b1fd7838fe57c0fb29f130d85b1f33265a6c9bf623119f6507c88c88bf0688",
+      "bytes": 488
+    },
+    "source/app/src/main/res/drawable/ic_illustration_affection.xml": {
+      "sha256": "c37f33cd0455a770b9724741d9282312ec709bcdaf57149e016a8a44830726a2",
+      "bytes": 1163
+    },
+    "source/app/src/main/res/drawable/ic_illustration_conflict.xml": {
+      "sha256": "a1cd254667c27f97c0a996cde0046ab50a9f34826a16bcd4e107e7733627eab2",
+      "bytes": 1135
+    },
+    "source/app/src/main/res/drawable/ic_illustration_contact.xml": {
+      "sha256": "bab7462dbdaa76dea6d40bdda9bf7b0372cba58fe50c99e9aa217f0e168c907c",
+      "bytes": 1070
+    },
+    "source/app/src/main/res/layout/item_answer.xml": {
+      "sha256": "f2b5b3224f655c78d6986de97d5a4d13aa4e86ba00230ca1c9cfe7b9b65157e4",
+      "bytes": 522
+    },
+    "source/app/src/main/res/layout/item_daily_card.xml": {
+      "sha256": "5e9960c571b839c095ee9ef362bbd80ab02cabce50b8a7af50084e204d36d796",
+      "bytes": 4198
+    },
+    "source/app/src/main/res/layout/item_daily_option.xml": {
+      "sha256": "506299f4ff2c942ca7b137a96a6163bcf98e95c762af68cc6ea5a7a2a5c3da40",
+      "bytes": 1653
+    },
+    "source/app/src/main/res/layout/view_share_card.xml": {
+      "sha256": "ab529097a6ba1c8b4657bb3e95b7ae0dbcea7cdaa2e1dbcc8f4a322eb0968fe7",
+      "bytes": 5453
+    },
+    "source/app/src/main/res/layout/view_share_daily_card.xml": {
+      "sha256": "d19e853d02dd8d75736916a69620964a82882a3fe90ad23e9cb918fe740d493e",
+      "bytes": 7241
+    },
+    "source/app/src/main/res/values/colors.xml": {
+      "sha256": "7830aeaac883d01bdd974945e9a7c74d0840847cd935526e55b3c02362d48702",
+      "bytes": 485
+    },
+    "verification/README.md": {
+      "sha256": "36b9244e170ce95855572b487d32fa72ca68375557704dbe779ca2bba6525bf4",
+      "bytes": 1557
+    },
+    "verification/observations.json": {
+      "sha256": "0e8908305d5ea83d3fcda2a3b86a3ec6846b69d660fa197c478c3a78161d0ebf",
+      "bytes": 685
+    }
+  }
+}
