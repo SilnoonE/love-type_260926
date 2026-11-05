@@ -61,7 +61,7 @@ def export(source):
         if not f.is_file():continue
         if f.is_symlink() or not f.resolve().is_relative_to(src):raise ValueError('Unexpected external path')
         rel=f.relative_to(src).as_posix()
-        if rel.startswith('app/src/') and f.suffix.lower() not in {'.kt','.java','.xml',*ASSETS}:raise ValueError('Review non-source file: '+rel)
+        if rel.startswith('app/src/') and f.suffix.lower() not in {'.kt','.java','.xml',*ASSETS} and rel != 'app/src/main/assets/ui_translations.json':raise ValueError('Review non-source file: '+rel)
         if re.search(r'(?i)(google-services|keystore|testkey|credentials|secrets|\.env)',rel):raise ValueError('Excluded path: '+rel)
         raw=f.read_bytes()
         if f.suffix.lower() in TEXT or f.name=='gradlew':

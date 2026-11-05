@@ -8,6 +8,7 @@
 
 ## 바로 보기
 
+- [2026-11-05: 버전 12 · 앱에 포함된 번역으로 즉시 언어 전환](updates/2026/11/05-01-bundled-languages/README.md)
 - [전체 업데이트 목록](updates/README.md)
 - [2026-09-26: 전체 소스 공개 전환 기록](updates/2026/09/26-02-publication/README.md)
 - [2026-09-26: 오늘의 질문과 카드 모음집](updates/2026/09/26-01-daily-cards/README.md)
