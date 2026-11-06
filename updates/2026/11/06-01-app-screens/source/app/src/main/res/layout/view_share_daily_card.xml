@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1080px"
+    android:layout_height="wrap_content"
+    android:background="#FFFFF9FA"
+    android:orientation="vertical"
+    android:padding="60px">
+
+    <!-- Card Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card_result"
+        android:elevation="4px"
+        android:orientation="vertical"
+        android:padding="60px">
+
+        <!-- Top Row: Date and Topic Chip -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_share_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2025. 09. 26"
+                android:textColor="#FF757575"
+                android:textSize="36px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_share_chip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_chip"
+                android:paddingHorizontal="32px"
+                android:paddingVertical="12px"
+                android:text=""
+                android:textColor="#FFB93F69"
+                android:textSize="32px"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Illustration -->
+        <ImageView
+            android:id="@+id/iv_share_illustration"
+            android:layout_width="240px"
+            android:layout_height="240px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40px"
+            android:src="@drawable/ic_illustration_date" />
+
+        <!-- Subheader: 오늘의 선택 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32px"
+            android:text="@string/loc_038"
+            android:textColor="#FF757575"
+            android:textSize="36px" />
+
+        <!-- Result Title -->
+        <TextView
+            android:id="@+id/tv_share_result_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16px"
+            android:text=""
+            android:textColor="#FFB93F69"
+            android:textSize="56px"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginVertical="36px"
+            android:background="#FFEEEEEE" />
+
+        <!-- Interpretation -->
+        <TextView
+            android:id="@+id/tv_share_interpretation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="12px"
+            android:text=""
+            android:textColor="#FF2D2D2D"
+            android:textSize="40px" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginVertical="36px"
+            android:background="#FFEEEEEE" />
+
+        <!-- Label: 이렇게 말해볼까요? -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loc_039"
+            android:textColor="#FFB93F69"
+            android:textSize="36px"
+            android:textStyle="bold" />
+
+        <!-- Conversation -->
+        <TextView
+            android:id="@+id/tv_share_conversation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16px"
+            android:background="#FFFFF0F3"
+            android:lineSpacingExtra="10px"
+            android:padding="32px"
+            android:text=""
+            android:textColor="#FF2D2D2D"
+            android:textSize="38px"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginVertical="36px"
+            android:background="#FFEEEEEE" />
+
+        <!-- Original Question -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loc_057"
+            android:textColor="#FF757575"
+            android:textSize="32px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_share_question_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:lineSpacingExtra="8px"
+            android:text=""
+            android:textColor="#FF2D2D2D"
+            android:textSize="36px" />
+
+        <!-- Selected Answer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28px"
+            android:text="@string/loc_041"
+            android:textColor="#FF757575"
+            android:textSize="32px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_share_selected_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:lineSpacingExtra="8px"
+            android:text=""
+            android:textColor="#FF2D2D2D"
+            android:textSize="36px" />
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/share_translation_attribution" android:layout_width="match_parent" android:layout_height="wrap_content" android:visibility="gone" android:gravity="center" android:textSize="24px" android:textColor="#555555" android:layout_marginTop="24px" />
+    <!-- Footer Banner inside share image -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:src="@drawable/mainheart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16px"
+            android:text="@string/loc_058"
+            android:textColor="#FFB93F69"
+            android:textSize="36px"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

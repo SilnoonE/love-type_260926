@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "2026/11/06-01-app-screens",
+  "policy": "append-only",
+  "files": {
+    "docs/EXPORT_NOTES.md": {
+      "sha256": "3618de15fd6736b96974724d85e8498d00d615bb4481ad8c4337791276688906",
+      "bytes": 407
+    },
+    "README.md": {
+      "sha256": "84664f76c5e15063f1a63b6ecd95fde13f9ed361b20679aadb7a027a696359fc",
+      "bytes": 1825
+    },
+    "screenshots/collection-es.png": {
+      "sha256": "dbe8f51cea89731845621602ef1385315a9e74dc48444bba4b7326d482f44eb6",
+      "bytes": 155049
+    },
+    "screenshots/daily-result-es.png": {
+      "sha256": "774fc8449ef260a3adb4a0f48628c10b4e4924a4b15ac7e743741acc6c49d56e",
+      "bytes": 163945
+    },
+    "screenshots/home-en.png": {
+      "sha256": "5cf17006cf7d4ccb6110c102a3365a2fcb0b4be54f1a0c903e156baab12ac5d5",
+      "bytes": 204170
+    },
+    "screenshots/home-es.png": {
+      "sha256": "d96633aa9788c5adc4e791b7ff862ef736d10c3bf45910267d85d023f211f571",
+      "bytes": 197994
+    },
+    "screenshots/home-ja.png": {
+      "sha256": "6a8644795d391d167215be5656ba0920998bca7078d193e9f3262f89fd5c81e0",
+      "bytes": 246538
+    },
+    "screenshots/home-zh.png": {
+      "sha256": "b4e61a4f7e8bee35fbaadddd2c654ed1329527bc9a48cf1703d26af63eada8e5",
+      "bytes": 221298
+    },
+    "screenshots/language-settings-ko.png": {
+      "sha256": "5ac725ae16c086ab7226ce3aa327d1181455da0e5e6b69e89b2189b1292c9452",
+      "bytes": 144276
+    },
+    "screenshots/quiz-result-es.png": {
+      "sha256": "07ec64b2246d212cdf0f83a9127ce05e180dad5940099b22c82542c125124fb5",
+      "bytes": 453017
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/DailyCardModels.kt": {
+      "sha256": "bd88c9b95c21c800db6944aa7eafb7ab80c3ee5f2ef8dfabb8a11963bf82a9ea",
+      "bytes": 1006
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/DailyQuestionScheduler.kt": {
+      "sha256": "d437b6cdc1eeb2df227a5a72e434b35d724a9a30e46c4ca2782fc58297c5b695",
+      "bytes": 1839
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/LanguageSettingsDialog.kt": {
+      "sha256": "c3a4a1abfd06b2dee19dde9ab3b0de847cd36ca296cf07aafd6c2965b1f4aeb7",
+      "bytes": 2207
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/Models.kt": {
+      "sha256": "887a7df838081f7dc1636172b9ca8705e2264132dc09c76bfc0f56d259e3878b",
+      "bytes": 608
+    },
+    "source/app/src/main/res/drawable/bg_answer_button.xml": {
+      "sha256": "e7fdc6776e051b8c93fbe90148a8ba5be93499d7ad8dd839130654f54e740894",
+      "bytes": 588
+    },
+    "source/app/src/main/res/drawable/bg_badge_complete.xml": {
+      "sha256": "395b88a19569cf6ecde81f8c83eab5e03651db4b0e6869bb6bd265ef5ad11dc4",
+      "bytes": 300
+    },
+    "source/app/src/main/res/drawable/bg_button_main.xml": {
+      "sha256": "9e07fcedb465fb62e06baf7eece66bb862c1e436c899f3bb54c9b97b7681095f",
+      "bytes": 193
+    },
+    "source/app/src/main/res/drawable/bg_button_secondary.xml": {
+      "sha256": "306af27afa073e558ca83094b588bdece423a3de43e448ffc8a7e38574ffe468",
+      "bytes": 254
+    },
+    "source/app/src/main/res/drawable/bg_card_result.xml": {
+      "sha256": "eab1f8e6eb0f48aaaf28cb0e7f3a470a0cc220f75e2c4567a983d59ab9e7011b",
+      "bytes": 278
+    },
+    "source/app/src/main/res/drawable/bg_chip.xml": {
+      "sha256": "4e11bcc80de4ec3d1d2284e37edc06e057abcf47f102c6982d62efedda5fed75",
+      "bytes": 223
+    },
+    "source/app/src/main/res/drawable/bg_option_selected.xml": {
+      "sha256": "23ac200a7b69120f5c2371e76caab4ecc2264990246a8a2dfa612c5da9310657",
+      "bytes": 300
+    },
+    "source/app/src/main/res/drawable/bg_option_unselected.xml": {
+      "sha256": "4c8e80860b4b47b6333817c3412653564a6c4f29be5328c2dd7e7ecf8ac4e0f5",
+      "bytes": 302
+    },
+    "source/app/src/main/res/drawable/bg_progress.xml": {
+      "sha256": "45e8013e3be1537fb199f3c5d8fb464e30587f91fcab82cabaa9dd02aa8cb8a0",
+      "bytes": 558
+    },
+    "source/app/src/main/res/drawable/bg_tag.xml": {
+      "sha256": "8ac0af8ef4bc93352cb7ed1ab74cd2546238c55372adbf0de69cf71f7bc56ed6",
+      "bytes": 199
+    },
+    "source/app/src/main/res/drawable/ic_arrow_back.xml": {
+      "sha256": "4931daa9cf33263dd0588c8dd97bccb7ac4a13f76ac8287e263a1d0553a7201e",
+      "bytes": 371
+    },
+    "source/app/src/main/res/drawable/ic_check_circle.xml": {
+      "sha256": "0ad7f0fd80ce94852a091a26e46117c41388c86ccb57150a4043d2de240e9b51",
+      "bytes": 431
+    },
+    "source/app/src/main/res/drawable/ic_favorite_border.xml": {
+      "sha256": "0f2164aeffd00f532a0e39db3672764133f188b1a03a214c754802edc51abaed",
+      "bytes": 668
+    },
+    "source/app/src/main/res/drawable/ic_favorite_filled.xml": {
+      "sha256": "23b1fd7838fe57c0fb29f130d85b1f33265a6c9bf623119f6507c88c88bf0688",
+      "bytes": 488
+    },
+    "source/app/src/main/res/drawable/ic_illustration_affection.xml": {
+      "sha256": "c37f33cd0455a770b9724741d9282312ec709bcdaf57149e016a8a44830726a2",
+      "bytes": 1163
+    },
+    "source/app/src/main/res/drawable/ic_illustration_conflict.xml": {
+      "sha256": "a1cd254667c27f97c0a996cde0046ab50a9f34826a16bcd4e107e7733627eab2",
+      "bytes": 1135
+    },
+    "source/app/src/main/res/drawable/ic_illustration_contact.xml": {
+      "sha256": "bab7462dbdaa76dea6d40bdda9bf7b0372cba58fe50c99e9aa217f0e168c907c",
+      "bytes": 1070
+    },
+    "source/app/src/main/res/drawable/ic_illustration_date.xml": {
+      "sha256": "87a3251073ec43d2aa969ca77f922923814b40935ff6ce32c7af6d3fb33d4002",
+      "bytes": 1101
+    },
+    "source/app/src/main/res/drawable/ic_illustration_space.xml": {
+      "sha256": "619391863a719e3e39abcc33fab1bc9dbb4057fc1629f5e1292f4792d4bdfb4a",
+      "bytes": 923
+    },
+    "source/app/src/main/res/drawable/ic_illustration_values.xml": {
+      "sha256": "7497905139318027bed26f36cb75e176a40650cb72ad8f0c6f602cc61487cc19",
+      "bytes": 1220
+    },
+    "source/app/src/main/res/layout/item_answer.xml": {
+      "sha256": "f2b5b3224f655c78d6986de97d5a4d13aa4e86ba00230ca1c9cfe7b9b65157e4",
+      "bytes": 522
+    },
+    "source/app/src/main/res/layout/item_daily_card.xml": {
+      "sha256": "6332cb0eae7236ab42361ffd139a9b58c8b9419603756035905e37c6c684c75c",
+      "bytes": 4086
+    },
+    "source/app/src/main/res/layout/item_daily_option.xml": {
+      "sha256": "ad20700e97b19c7b571fef939b04dcac5dbd786815e4bf2676db352fa8777328",
+      "bytes": 1612
+    },
+    "source/app/src/main/res/layout/view_share_card.xml": {
+      "sha256": "a8718b81ade0128f30e138a3e8742da252f342759474ef7791cca3b23f6b63c4",
+      "bytes": 5673
+    },
+    "source/app/src/main/res/layout/view_share_daily_card.xml": {
+      "sha256": "8c1e6403ccdd3f2729c13f7e42d84c86c899bc3f67bdbd95eda2393fd0cffd5f",
+      "bytes": 7165
+    },
+    "source/app/src/main/res/values/colors.xml": {
+      "sha256": "7830aeaac883d01bdd974945e9a7c74d0840847cd935526e55b3c02362d48702",
+      "bytes": 485
+    },
+    "verification/README.md": {
+      "sha256": "28874e606650df47a210df2126aecc1f039aae9ae5b2853c6d3f91edcc8733f1",
+      "bytes": 456
+    }
+  }
+}
