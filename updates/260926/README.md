@@ -1,5 +1,5 @@
 # 2026-09-26 · 오늘의 질문과 답변 카드
 
-- [01-daily-cards](01-daily-cards/)
-- [02-publication](02-publication/)
-- [03-public-summary](03-public-summary/)
+- [오늘의 연애 질문과 답변 카드 모음집](01-daily-cards/)
+- [공개 소스 범위 정리](02-publication/)
+- [8쪽 개발 요약](03-public-summary/)
