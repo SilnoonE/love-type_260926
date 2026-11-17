@@ -8,7 +8,7 @@
 - 긴 개인 학습서와 정정 전 저장소 백업은 로컬에만 보관합니다.
 - 이미 내려받은 복사본이나 GitHub의 과거 SHA 캐시까지 회수했다는 의미는 아닙니다.
 
-[8쪽 PDF](../26-01-daily-cards/docs/code-guide.pdf) · [웹 요약](../26-01-daily-cards/docs/CODE_GUIDE.md)
+[8쪽 PDF](../01-daily-cards/docs/code-guide.pdf) · [웹 요약](../01-daily-cards/docs/CODE_GUIDE.md)
 
 ## 검증
 

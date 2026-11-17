@@ -11,9 +11,8 @@ TEST_IDS={'app':'ca-app-pub-3940256099942544~3347511713','banner':'ca-app-pub-39
 SECRETS=re.compile(r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|github_pat_[A-Za-z0-9_]{15,}|gh[pousr]_[A-Za-z0-9]{20,}|AIza[\w-]{25,}|(?im:^\s*(?:storePassword|keyPassword|api[_-]?key|access[_-]?token)\s*[=:]\s*["\']?[^\s"\']+)')
 
 def checked_id(value):
-    m=ID_RE.fullmatch(value)
-    if not m:raise ValueError('ID must be YYYY/MM/DD-NN-slug')
-    date(*map(int,m.group(1,2,3)))
+    if not re.fullmatch(r'\d{6}(?:/[a-z0-9-]+)?',value):raise ValueError('Use YYMMDD or YYMMDD/topic')
+    date(2000+int(value[:2]),int(value[2:4]),int(value[4:6]))
     p=(ROOT/'updates'/value).resolve()
     if not p.is_relative_to((ROOT/'updates').resolve()):raise ValueError('Outside updates')
     return p
@@ -120,7 +119,7 @@ def main():
     if pdf:(target/'docs/code-guide.pdf').write_bytes(pdf)
     index=ROOT/'updates/README.md'
     with index.open('a',encoding='utf-8',newline='\n') as f:
-        day=args.id[:10].replace('/','-')
+        day=args.id[:6]
         f.write(f'| {day} | [{args.title}]({args.id}/README.md) | [소스]({args.id}/source/) | [문서]({args.id}/docs/) | [검증]({args.id}/verification/) |\n')
     print('CREATED',args.id,'source_files='+str(len(content)),'sanitized_files='+str(len(changed)))
     print('Fill in documentation, then run --seal with the same ID. No commit or push was performed.')

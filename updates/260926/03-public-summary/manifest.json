@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "260926/03-public-summary",
+  "policy": "append-only",
+  "files": {
+    "README.md": {
+      "sha256": "e97ab7784d7513cd8653aa185e1f3ac8d0c1032eadd8f1d5476a6c8662e603d8",
+      "bytes": 1110
+    }
+  }
+}

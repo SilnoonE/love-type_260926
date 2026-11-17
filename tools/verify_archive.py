@@ -5,7 +5,7 @@ from add_update import ROOT, TEXT, scan_text, check_public_pdf
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--base');a=parser.parse_args()
-    manifests=list((ROOT/'updates').glob('*/*/*/manifest.json'))
+    manifests=list((ROOT/'updates').rglob('manifest.json'))
     if not manifests:raise ValueError('No sealed snapshots')
     count=0
     for mf in manifests:
@@ -30,8 +30,8 @@ def main():
         for entry in prior:
             if not entry:continue
             meta,name=entry.split(b'\t',1);rel=name.decode();parts=rel.split('/')
-            if len(parts)<5 or not re.fullmatch(r'\d{4}',parts[1]):continue
-            oldfolders.add('/'.join(parts[:4]));oldpaths.add(rel)
+            if len(parts)<3 or not re.fullmatch(r'\d{6}',parts[1]):continue
+            oldfolders.add('/'.join(parts[:2]));oldpaths.add(rel)
             file=ROOT/rel
             if not file.is_file():raise ValueError('Old file deleted: '+rel)
             blob=meta.split()[2].decode();expected=g('cat-file','blob',blob)

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "261117",
+  "policy": "append-only",
+  "files": {
+    "chart-1.png": {
+      "sha256": "198d5428efc368096678300532847124a531998d26f4fd5ef8e3f6d43fd6e9ac",
+      "bytes": 85186
+    },
+    "chart-2.png": {
+      "sha256": "7158d32dfdb21d3499480be679441d8f372bfdab03c8c510fde636d3451f5f05",
+      "bytes": 77495
+    },
+    "comparison.pdf": {
+      "sha256": "a86a100d69dca8f7044a71a6a8f063ab4644ff8b8b1a9b50d9b0c8d089f8a582",
+      "bytes": 72487
+    },
+    "README.md": {
+      "sha256": "5f0aa867bf3060227f82ac028eec4585c811e0678343f29ac593ee7324d4bd78",
+      "bytes": 1257
+    }
+  }
+}
